@@ -5,6 +5,7 @@ delimited files to Parquet format using a few lines of Apache SPARK & Scala code
 query timing improvements that this simple change of file format can deliver. You can either do this within AWS by running your Spark job
 on an Elastic Map Reduce (EMR) cluster and reading/writing your input/output files directly on S3 or you can do what I did and set up a
 local Spark environment on your PC or Mac, convert your file and then upload it back onto S3. Assuming you’re doing the latter you’ll need
-to download Spark and Scala to your local PC or Mac computer. Click on the following link for a Github repo I wrote on how to set up a
+to download Spark and Scala to your local PC or Mac computer. Click on the following 
+[link](https://github.com/taupirho/scala-spark-on-pc) for a Github repo I wrote on how to set up a
 local Spark and Scala development environment. Once you’ve done this you can then use the spark code included with this repo to change
 your text delimited file format to Parquet.
